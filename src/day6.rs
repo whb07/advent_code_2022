@@ -44,4 +44,9 @@ mod tests {
     fn test_part_1() {
         assert_eq!(1779, find_start_marker(&read_file("/home/wbright/projects/advent_of_code_2022/input/day6.txt"), 4));
     }
+
+    #[test]
+    fn test_part_2() {
+        assert_eq!(2635, find_start_marker(&read_file("/home/wbright/projects/advent_of_code_2022/input/day6.txt"), 14));
+    }
 }
